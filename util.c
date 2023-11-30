@@ -1,6 +1,15 @@
 #include "util.h"
 
-// https://www.rfc-editor.org/rfc/rfc1952#section-8
+// CRC code taken from https://www.rfc-editor.org/rfc/rfc1952#section-8
+//
+// Copyright (c) 1996 L. Peter Deutsch
+//
+// Permission is granted to copy and distribute this document for any
+// purpose and without charge, including translations into other
+// languages and incorporation into compilations, provided that the
+// copyright notice and this notice are preserved, and that any
+// substantive changes or deletions from the original are clearly
+// marked.
 
 /* Table of CRCs of all 8-bit messages. */
 unsigned long crc_table[256];
